@@ -8,7 +8,7 @@ from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
 from backend import load_data, train, predict
 
 st.set_page_config(page_title="Course Recommender", layout="wide")
-st.title("Personalized Course Recommender (Lab)")
+st.title("Personalized Course Recommender ")
 
 # --- 1. Load data ---
 @st.cache_data
